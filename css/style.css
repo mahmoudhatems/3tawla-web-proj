@@ -25,54 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /*--------------------------------------------------------------
-# Top Bar
---------------------------------------------------------------*/
-#topbar {
-  background: #fff;
-  height: 40px;
-  font-size: 14px;
-  transition: all 0.5s;
-  z-index: 996;
-}
 
-#topbar.topbar-scrolled {
-  top: -40px;
-}
-
-#topbar .contact-info a {
-  line-height: 1;
-  color: #444444;
-  transition: 0.3s;
-}
-
-#topbar .contact-info a:hover {
-  color: #3fbbc0;
-}
-#topbar .contact-info i {
-  color: #3fbbc0;
-  padding-right: 4px;
-  margin-left: 15px;
-  line-height: 0;
-}
-#topbar .contact-info i:first-child {
-  margin-left: 0;
-}
-
-#topbar .social-links a {
-  color: #437099;
-  padding-left: 15px;
-  display: inline-block;
-  line-height: 1px;
-  transition: 0.3s;
-}
-
-#topbar .social-links a:hover {
-  color: #1977cc;
-}
-
-#topbar .social-links a:first-child {
-  border-left: 0;
-}
 
 /*--------------------------------------------------------------
 # Header
@@ -82,7 +35,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  top: 40px;
+  top: 0px;
   box-shadow: 0px 2px 15px rgba(25, 119, 204, 0.1);
 }
 
@@ -753,37 +706,37 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Appointments
+# Statement
 --------------------------------------------------------------*/
-.appointment .php-email-form {
+.Statement .php-email-form {
   width: 100%;
 }
 
-.appointment .php-email-form .form-group {
+.Statement .php-email-form .form-group {
   padding-bottom: 8px;
 }
 
 
-.appointment .php-email-form input, .appointment .php-email-form textarea, .appointment .php-email-form select {
+.Statement .php-email-form input, .Statement .php-email-form textarea, .Statement .php-email-form select {
   border-radius: 0;
   box-shadow: none;
   font-size: 14px;
   padding: 10px !important;
 }
 
-.appointment .php-email-form input:focus, .appointment .php-email-form textarea:focus, .appointment .php-email-form select:focus {
+.Statement .php-email-form input:focus, .appointment .php-email-form textarea:focus, .appointment .php-email-form select:focus {
   border-color: #1977cc;
 }
 
-.appointment .php-email-form input, .appointment .php-email-form select {
+.aStatement .php-email-form input, .Statement .php-email-form select {
   height: 44px;
 }
 
-.appointment .php-email-form textarea {
+.Statement .php-email-form textarea {
   padding: 10px 12px;
 }
 
-.appointment .php-email-form button[type="submit"] {
+.Statement .php-email-form button[type="submit"] {
   background: #1977cc;
   border: 0;
   padding: 10px 35px;
@@ -792,51 +745,51 @@ section {
   border-radius: 50px;
 }
 
-.appointment .php-email-form button[type="submit"]:hover {
+.Statement .php-email-form button[type="submit"]:hover {
   background: #3fbbc0;
 }
 
 /*--------------------------------------------------------------
-# Doctors
+# Team Work
 --------------------------------------------------------------*/
-.doctors {
+.Tem {
   background: #fff;
 }
 
-.doctors .member {
+.Tem .member {
   position: relative;
   box-shadow: 0px 2px 15px rgba(44, 73, 100, 0.08);
   padding: 30px;
   border-radius: 10px;
 }
 
-.doctors .member .pic {
+.Tem .member .pic {
   overflow: hidden;
   width: 180px;
   height: 180px;
   border-radius: 20%;
 }
 
-.doctors .member .pic img {
+.Tem .member .pic img {
   transition: ease-in-out 0.3s;
 }
 
-.doctors .member:hover img {
+.Tem .member:hover img {
   transform: scale(1.1);
 }
 
-.doctors .member .member-info {
+.Tem .member .member-info {
   padding-left: 30px;
 }
 
-.doctors .member h4 {
+.Tem .member h4 {
   font-weight: 700;
   margin-bottom: 5px;
   font-size: 20px;
   color: #2c4964;
 }
 
-.doctors .member span {
+.Tem .member span {
   display: block;
   font-size: 15px;
   padding-bottom: 10px;
@@ -844,7 +797,7 @@ section {
   font-weight: 500;
 }
 
-.doctors .member span::after {
+.Tem .member span::after {
   content: '';
   position: absolute;
   display: block;
@@ -855,19 +808,19 @@ section {
   left: 0;
 }
 
-.doctors .member p {
+.Tem .member p {
   margin: 10px 0 0 0;
   font-size: 14px;
 }
 
-.doctors .member .social {
+.Tem .member .social {
   margin-top: 12px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
 }
 
-.doctors .member .social a {
+.Tem .member .social a {
   transition: ease-in-out 0.3s;
   display: flex;
   align-items: center;
@@ -878,17 +831,17 @@ section {
   background: #a0bcd5;
 }
 
-.doctors .member .social a i {
+.Tem .member .social a i {
   color: #fff;
   font-size: 16px;
   margin: 0 2px;
 }
 
-.doctors .member .social a:hover {
+.Tem .member .social a:hover {
   background: #3fbbc0;
 }
 
-.doctors .member .social a + a {
+.Tem .member .social a + a {
   margin-left: 8px;
 }
 
